@@ -1,0 +1,5 @@
+# ignore all apks
+*.apk
+
+#ignore what's on output folder
+output/
