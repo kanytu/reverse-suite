@@ -1,7 +1,25 @@
 Reverse Suite
 =============
 
-work in progress
+```bash
+# ./rsuite.sh -h
+  _____                                 _____       _ _       
+ |  __ \                               / ____|     (_) |      
+ | |__) |_____   _____ _ __ ___  ___  | (___  _   _ _| |_ ___ 
+ |  _  // _ \ \ / / _ \ '__/ __|/ _ \  \___ \| | | | | __/ _ \ 
+ | | \ \  __/\ V /  __/ |  \__ \  __/  ____) | |_| | | ||  __/
+ |_|  \_\___| \_/ \___|_|  |___/\___| |_____/ \__,_|_|\__\___|
+                                                                                                                            
+./rsuite.sh <options>, where <options> are:
+
+     -h                        what you are looking at
+     -d <file.apk>,            disassemble the apk (convert to smali)
+     -l,                       shows the name of the applications already disassembled.
+     -b <application_name>,    build the provided application as an apk. 
+     -n,                       optimize images during build.
+     -x <file.apk>,            decompile the apk, and run luyten to verify the source code.
+     -o <file.apk>,            output file of the new apk (use with -d)
+```
 
 
 **Version of used tools:**
