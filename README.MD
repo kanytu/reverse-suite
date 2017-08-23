@@ -1,7 +1,9 @@
 Reverse Suite
 =============
 
-Please see the README for Unix. Windows and MAC were not updated
+Please see the README of the Linux directory. 
+
+Windows and MAC were not updated.
 
 
 **Version of used tools:**
