@@ -14,11 +14,11 @@ Reverse Suite for Linux
 
      -h                        what you are looking at
      -d <file.apk>,            disassemble the apk (convert to smali)
-     -l,                       shows the name of the applications already disassembled.
-     -b <application_name>,    build the application as an apk 
-     -n,                       optimize images during build.
-     -x <file.apk>,            decompile the apk, and run luyten to verify the source code.
-     -o <file.apk>,            output file of the new apk (use with -b)
+     -l,                       shows the name of the applications already disassembled
+     -b <application_name>,    build the provided application as an apk (use with -o)
+     -n,                       optimize images during build
+     -x <file.apk>,            decompile the apk, and run luyten to verify the source code
+     -o <file.apk>,            the name of apk that gets written (use with -b)
 ```
 
 **Version of used tools:**
